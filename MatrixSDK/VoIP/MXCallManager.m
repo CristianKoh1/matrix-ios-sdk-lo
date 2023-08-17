@@ -100,9 +100,9 @@ NSTimeInterval const kMXCallDirectRoomJoinTimeout = 30;
     {
         _mxSession = mxSession;
         calls = [NSMutableArray array];
-        _inviteLifetime = 30000;
-        _negotiateLifetime = 30000;
-        _transferLifetime = 30000;
+        _inviteLifetime = 90000;
+        _negotiateLifetime = 90000;
+        _transferLifetime = 90000;
 
         _callStack = callstack;
         
